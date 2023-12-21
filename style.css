@@ -1,0 +1,27 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: #7b6853;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#left, #right{
+    width: 300px;
+    min-height: 400px;
+    margin: 20px;
+    border: 2px dotted #000;
+}
+.list{
+    background: #f1dec9;
+    height: 60px;
+    margin: 30px;
+    color: #000;
+    display: flex;
+    align-items: center;
+}
+.list img{
+    width: 40px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
